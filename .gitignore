@@ -4,3 +4,6 @@
 *.lock
 *.log
 dist
+# local wrangler dev state / scratch
+/.wrangler
+/dist_test

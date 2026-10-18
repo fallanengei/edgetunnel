@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "deploy": "wrangler publish",
-    "dev-vless": "wrangler dev src/worker-vless.js"
+    "dev-vless": "wrangler dev src/worker-vless.js",
+    "build": "node scripts/pages-build.mjs"
   },
   "author": "",
   "license": "ISC",
